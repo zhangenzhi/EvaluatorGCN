@@ -1,0 +1,2 @@
+model_checkpoint_path: "evaluator"
+all_model_checkpoint_paths: "evaluator"
