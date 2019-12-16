@@ -189,6 +189,16 @@ class evaluator(object):
         return eval_acc[0][0]
         # return 0
 
+class offline_evaluator(object):
+    def __init__(self):
+        pass
+    def _load_model_from_tf(self):
+        pass
+    def _build_model_by_np(self):
+        pass
+    def evaluate(self,arc):
+        pass
+    
 if __name__ == "__main__":
     eval_model = evaluator(12,True,8)
     arc = [
