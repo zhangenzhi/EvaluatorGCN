@@ -276,6 +276,7 @@ class offline_evaluator(object):
         eval_acc = self._build_model_by_np(supports,feature)
         return eval_acc[0][0]
 
+
 if __name__ == "__main__":
     eval_model = evaluator(12,True,8)
     offline_eval_model = offline_evaluator(12,True,8) 
